@@ -1,0 +1,225 @@
+.first-nav{
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: row;
+}
+
+.first-nav-div-one{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    color: #8b8b8b;
+}
+
+.first-nav-div-two{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    color: #8b8b8b;
+}
+
+.email , .tel{
+    text-decoration:none;
+    color: #8b8b8b;
+}
+
+#dropdown{
+    margin-left: 650px;
+}
+
+.nav-link-active{
+    color: blue !important;
+}
+
+.donate-now{
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+}
+
+.donate-now:hover{
+    transform: scale(1.1);
+}
+
+.navbar{
+    position: sticky !important;
+    top: 0 !important;
+    background-color: white !important;
+}
+
+#fcard{
+    background-image: url('./Images/99.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: right !important;
+    background-size: 39%;
+    padding-top: 50px !important;
+    border: none !important;
+    position: static !important;
+}
+
+.card-title{
+    width: 32% !important;
+}
+
+.card-two{
+    margin-top: 30px;
+}
+
+.card-text{
+    width: 45% !important;
+    padding-top: 20px !important;
+}
+
+.merim{
+    background-color: #f0fcda;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+#merimarzi{
+    width: 25%;
+    padding-left: 20px;
+}
+
+.container{
+    margin-top: 50px;
+}
+
+#read-more{
+    padding-top: 10px !important;
+    padding-left: 45px !important;
+    padding-bottom: 10px !important;
+    padding-right: 45px !important;
+    color: black !important;
+    background-color: white !important;
+    border: 1px solid black !important;
+    font-size: small !important;
+}
+
+#fk-btn{
+    background-color: black;
+    color: white;
+    border: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#mmbtn-one , #mmbtn-two , #mmbtn-three{
+    background-color: white;
+    color: black;
+    border: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#qd-btn{
+    background-color: green;
+    color: white;
+    border: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}   
+
+.merim-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10%;
+}
+
+#mmbtn-one:hover , #mmbtn-two:hover , #mmbtn-three:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+}
+
+#fk-btn:hover , #qd-btn:hover{
+    transform: scale(1.1);
+}
+
+.d-grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.card-img-top:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+.card{
+    position: static !important;
+    top: 0 !important;
+}
+
+#prj{
+    position: static;
+    top: 0;
+}
+
+.carousel{
+    position: static !important;
+    top: 0 !important;
+}
+
+.nbtn{
+    margin-top: 20px;
+    border: none;
+    background-color: #8dc63f;
+    color: white;
+    border-radius: 5px;
+}
+
+.arrow{
+    margin-top: 20px;
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+.my-form{
+    background-color: #1c71b2;
+    padding: 50px;
+}
+
+.form-control::placeholder{
+    color: white !important;
+}
+
+.sbs{
+    background-color: white;
+    color: black;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+#fm-ctrl{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#infm-ctrl{
+    margin-top: 30px;
+}
